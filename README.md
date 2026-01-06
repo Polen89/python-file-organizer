@@ -35,11 +35,12 @@ def png_finder(source_dir=r"C:\Users\yourname\Pictures\Screenshots", dest_root=N
 
 ---
 
-Usage
+### Usage
 
 Run the script from Python:
+```bash
 python png_finder.py
-
+```
 ---
 
 The script will create an output folder (by default named PNGS) and organize files into date-based subfolders.
