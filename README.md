@@ -56,3 +56,16 @@ Example Output Structure:
 ├── 2025-11-27/
 │   ├── Screenshot.png
 ```
+
+---
+
+## Screenshots
+
+### Before
+Files with inconsistent names and copy numbers before running the script.
+![Before organization](screenshots/before.png)
+
+### After
+Files organized into date-based folders with clean filenames.
+![After organization](screenshots/after.png)
+
