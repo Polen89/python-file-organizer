@@ -24,12 +24,14 @@ Before running the script, update the source directory to match your environment
 
 ```python
 png_finder(source_dir=r"C:\Users\yourname\Pictures\Screenshots"):
+```
 
 ### Option 2: Use the default parameter
 If you prefer, you can edit the default value in the function definition:
 
 ```python
 def png_finder(source_dir=r"C:\Users\yourname\Pictures\Screenshots", dest_root=None):
+```
 
 ---
 
