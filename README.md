@@ -47,10 +47,12 @@ from png_finder import png_finder
 
 The script will create an output folder (by default named PNGS) and organize files into date-based subfolders.
 
-Example Output Structure
-PNGS/
+Example Output Structure:
+
+```PNGS/
 ├── 2025-11-26/
 │   ├── Screenshot.png
 │   ├── Screenshot (1).png
 ├── 2025-11-27/
 │   ├── Screenshot.png
+```
