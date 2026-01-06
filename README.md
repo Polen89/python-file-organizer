@@ -20,7 +20,32 @@ The script scans a directory, groups files into date-based folders, cleans incon
 
 Before running the script, update the source directory to match your environment.
 
-### Option 1: Pass the directory directly (recommended)
+### Option 1: Pass the directory directly (recommended) 
 
 ```python
-png_finder(source_dir=r"C:\Users\yourname\Pictures\Screenshots")
+png_finder(source_dir=r"C:\Users\yourname\Pictures\Screenshots"):
+
+### Option 2: Use the default parameter
+If you prefer, you can edit the default value in the function definition:
+
+```python
+def png_finder(source_dir=r"C:\Users\yourname\Pictures\Screenshots", dest_root=None):
+
+---
+
+Usage
+
+Run the script from Python:
+python png_finder.py
+
+---
+
+The script will create an output folder (by default named PNGS) and organize files into date-based subfolders.
+
+Example Output Structure
+PNGS/
+├── 2025-11-26/
+│   ├── Screenshot.png
+│   ├── Screenshot (1).png
+├── 2025-11-27/
+│   ├── Screenshot.png
