@@ -68,5 +68,6 @@ Files with inconsistent names and copy numbers before running the script.
 ### After
 Files organized into date-based folders with clean filenames.
 ![After organization](screenshots/new_folder.png)
+![After organization](screenshots/dated_folder.png)
 ![After organization](screenshots/after.png)
 
