@@ -41,6 +41,8 @@ Open a Python shell and run:
 
 ```python
 from png_finder import png_finder
+```
+
 ---
 
 The script will create an output folder (by default named PNGS) and organize files into date-based subfolders.
