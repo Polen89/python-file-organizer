@@ -23,6 +23,4 @@ Before running the script, update the source directory to match your environment
 ### Option 1: Pass the directory directly (recommended)
 
 ```python
-png_finder(
-    source_dir=r"C:\Users\yourname\Pictures\Screenshots"
-)
+png_finder(source_dir=r"C:\Users\yourname\Pictures\Screenshots")
